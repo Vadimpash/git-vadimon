@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    width: auto;
+    font-family: 'Roboto', serif;
+    grid-template-areas: "he"
+    "me"
+    "ba"
+    "sl"
+    "se"
+    "ad"
+    "ne"
+    "co"
+    "fo";
+    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 300px 200px ;
+}

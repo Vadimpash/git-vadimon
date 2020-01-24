@@ -1,0 +1,36 @@
+.footer .footerContent {
+    grid-area: fo;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
+    grid-gap: 50px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.footer .footerContent .leftFoot {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.footer .footerContent .rightFoot {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-auto-rows: minmax(40px, 55px);
+}
+
+.footer .footerContent .leftFoot img {
+    margin-left: 60px;
+}
+
+.footer .footerContent .rightFoot a {
+    text-decoration: blink;
+}
+
+.footer .footerContent .rightFoot a:hover {
+    color: white;
+    transition: all 0.3s;
+    text-decoration: underline;
+}

@@ -1,0 +1,108 @@
+.news {
+    grid-area: ne;
+    display: grid;
+    grid-template-columns: repeat(2, 440px);
+    grid-auto-rows: minmax(40px, auto);
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    grid-gap: 100px;
+}
+
+.news .firItemNews {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+    grid-auto-rows: minmax(40px, 215px);
+    align-self: center;
+    justify-self: center;
+}
+
+.news .firContent {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+}
+
+.news .secItemNews {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+    grid-auto-rows: minmax(40px, 215px);
+    align-self: center;
+    justify-self: center;
+}
+
+.news .secContent {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+}
+
+.news .thiItemNews {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+    grid-auto-rows: minmax(40px, auto);
+    align-self: center;
+    justify-self: center;
+}
+
+.news .thiContent {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+}
+
+.news .fouItemNews {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+    grid-auto-rows: minmax(40px, auto);
+    align-self: center;
+    justify-self: center;
+}
+
+.news .fouContent {
+    display: grid;
+    grid-template-columns: repeat(1, 440px);
+}
+
+.news .firImage img  {
+    width: 440px;
+    height: 215px;
+}
+
+.news .secImage img  {
+    width: 440px;
+    height: 215px;
+}
+
+.news .thiImage img  {
+    width: 440px;
+    height: 215px;
+}
+
+.news .fouImage img  {
+    width: 440px;
+    height: 215px;
+}
+
+.news .firDate img{
+    width: 17px;
+    height: 20px;
+}
+
+.news .secDate img{
+    width: 17px;
+    height: 20px;
+}
+
+.news .thiDate img{
+    width: 17px;
+    height: 20px;
+}
+
+.news .fouDate img{
+    width: 17px;
+    height: 20px;
+}
+
+.news p{
+    text-align: left;
+    margin: 0;
+}
+

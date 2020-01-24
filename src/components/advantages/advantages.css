@@ -1,0 +1,34 @@
+.advantages {
+    grid-area: ad;
+    display: grid;
+    position: relative;
+}
+
+.advContent {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+
+.advLogo {
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+    grid-auto-rows: minmax(20px, 60px);
+    margin-bottom: 90px;
+}
+
+.advArticle {
+     display: grid;
+     grid-template-columns: repeat(1, 56px 500px);
+     grid-auto-rows: minmax(20px, 58px);
+     grid-gap: 20px;
+ }
+
+.advantages p,h1,h4{
+    margin: 0;
+}
+
+.advImg img {
+    width: 1440px;
+    height: 500px;
+}
