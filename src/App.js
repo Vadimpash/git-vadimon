@@ -9,7 +9,8 @@ import Slider from "./components/slider/slider";
 import Service from "./components/service/service";
 import Advantages from "./components/advantages/advantages";
 import News from "./components/news/news";
-import Cooperation from "./components/cooperation/cooperation";
+import Rewards from "./components/rewards/rewards";
+import Ticker from "./components/ticker/ticker";
 import Footer from "./components/footer/footer";
 
 const App = () => {
@@ -22,12 +23,11 @@ const App = () => {
             <Service/>
             <Advantages/>
             <News/>
-            <Cooperation/>
+            <Rewards/>
+            <Ticker/>
             <Footer/>
         </div>
     );
 }
 
 export default App;
-
-//test commit

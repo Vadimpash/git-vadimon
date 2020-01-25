@@ -9,7 +9,8 @@
     "se"
     "ad"
     "ne"
-    "co"
+    "re"
+    "ti"
     "fo";
-    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 300px 200px ;
+    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 100px 50px 200px ;
 }

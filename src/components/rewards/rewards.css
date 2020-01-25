@@ -1,0 +1,17 @@
+.rewards {
+    grid-area: re;
+    background: rgb(198, 198, 212);
+    background: linear-gradient(90deg, rgba(198, 198, 212, 1) 0%, rgba(122, 147, 153, 1) 0%, rgba(251, 251, 251, 1) 0%, rgba(160, 160, 255, 1) 100%);
+}
+
+.itemReward {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+}
+
+.itemReward p{
+    border: 1px solid #9595FF;
+    border-radius: 20%;
+}
+
