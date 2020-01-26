@@ -1,4 +1,5 @@
 .slider {
     grid-area: sl;
+    width: 1366px;
     background-color: dodgerblue;
 }

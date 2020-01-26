@@ -1,6 +1,7 @@
 .footer .footerContent {
     grid-area: fo;
     display: grid;
+    width: 1366px;
     grid-template-columns: repeat(3, 400px);
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
@@ -12,17 +13,17 @@
 
 .footer .footerContent .leftFoot {
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 170px);
 }
 
 .footer .footerContent .rightFoot {
     display: grid;
-    grid-template-columns: repeat(1, 200px);
     grid-auto-rows: minmax(40px, 55px);
 }
 
 .footer .footerContent .leftFoot img {
-    margin-left: 60px;
+    margin-left: 40px;
+    width: 80px;
 }
 
 .footer .footerContent .rightFoot a {

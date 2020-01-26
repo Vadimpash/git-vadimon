@@ -3,7 +3,7 @@
     display: grid;
     text-transform: uppercase;
     font-family: 'Lato Regular', serif;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 270px);
     grid-auto-rows: minmax(40px, auto);
     text-align: center;
     align-items: center;

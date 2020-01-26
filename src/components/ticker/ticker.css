@@ -1,3 +1,9 @@
 .ticker {
     grid-area: ti;
+    width: 1366px;
+}
+
+.ticker span {
+    text-align: center;
+    border: 2px solid;
 }

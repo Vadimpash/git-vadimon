@@ -1,7 +1,8 @@
 .header {
     grid-area: he;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    width: 1366px;
+    grid-template-columns: repeat(4, 340px);
     grid-auto-rows: minmax(40px, auto);
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
