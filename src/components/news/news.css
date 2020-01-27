@@ -1,4 +1,4 @@
-.news {
+.wrapNews {
     grid-area: ne;
     display: grid;
     grid-template-columns: repeat(2, 600px);
@@ -7,6 +7,17 @@
     align-self: center;
     justify-self: center;
     grid-gap: 20px;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(1, 1349px);
+    grid-auto-rows: minmax(40px, 100px);
+}
+
+.article h1 {
+    text-align: center;
+    align-self: center;
 }
 
 .news .firItemNews {

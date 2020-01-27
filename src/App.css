@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     font-family: 'Roboto', serif;
-    grid-template-columns: 1366px;
+    grid-template-columns: 1349px;
     grid-template-areas: "he"
     "me"
     "ba"
@@ -12,5 +12,5 @@
     "re"
     "ti"
     "fo";
-    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 100px 30px 120px ;
+    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 100px 30px 130px ;
 }

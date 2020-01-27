@@ -1,13 +1,13 @@
 .rewards {
     grid-area: re;
-    width: 1366px;
+    width: 1349px;
     background: rgb(198, 198, 212);
     background: linear-gradient(90deg, rgba(198, 198, 212, 1) 0%, rgba(122, 147, 153, 1) 0%, rgba(251, 251, 251, 1) 0%, rgba(160, 160, 255, 1) 100%);
 }
 
 .itemReward {
     display: grid;
-    grid-template-columns: repeat(5, 270px);
+    grid-template-columns: repeat(5, 265px);
     text-align: center;
 }
 
