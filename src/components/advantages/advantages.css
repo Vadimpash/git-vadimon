@@ -8,20 +8,21 @@
     position: absolute;
     align-self: center;
     margin-left: 150px;
+    margin-bottom: 40px;
 }
 
 .advLogo {
     display: grid;
     grid-template-columns: repeat( 1, 500px);
     grid-auto-rows: minmax(20px, 60px);
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .advArticle {
      display: grid;
      grid-template-columns: repeat(1, 50px 500px);
      grid-auto-rows: minmax(20px, 49px);
-     grid-gap: 20px;
+     grid-gap: 30px;
  }
 
 .advantages p,h1,h4{

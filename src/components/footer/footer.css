@@ -2,6 +2,7 @@
     grid-area: fo;
     display: grid;
     width: 1349px;
+    height: 130px;
     grid-template-columns: repeat(3, 400px);
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
@@ -34,4 +35,19 @@
     color: white;
     transition: all 0.3s;
     text-decoration: underline;
+}
+
+.licAddress p{
+    margin: 0;
+}
+
+.licAddress {
+    display: grid;
+    grid-auto-rows: minmax(55px, auto);
+    grid-template-columns: repeat(1, 400px);
+}
+
+.leftFoot span {
+    margin-top: 5px;
+
 }

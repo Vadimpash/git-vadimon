@@ -14,8 +14,12 @@ const Footer = () => {
                 </div>
                 <div className="centerFoot">
                     <div className="licAddress">
-                        <p><span>Адресс:</span> <br/>г.Брест,ул. Северная, 12</p>
-                        <p><span>Лицензия:</span> <br/> № 1123988677878</p>
+                        <div className="cenAddress">
+                            <p><span>Адресс:</span> <br/>г.Брест,ул. Северная, 12</p>
+                        </div>
+                        <div className="cenLicense">
+                            <p><span>Лицензия:</span> <br/> № 1123988677878</p>
+                        </div>
                     </div>
                 </div>
                 <div className="rightFoot">
