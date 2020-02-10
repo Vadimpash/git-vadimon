@@ -1,4 +1,5 @@
 .banner {
+    grid-area: ba;
     display: grid;
     position: relative;
 }

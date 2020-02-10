@@ -1,10 +1,10 @@
 import React from "react";
 import './news.css';
-import Calendar from '../../img/svg/calendar.svg';
-import First from '../../img/png/blood.png'
-import Second from '../../img/png/experts.png'
-import Third from '../../img/png/services.png'
-import Fourth from '../../img/png/1000years.png'
+import Calendar from '../../../img/svg/calendar.svg';
+import First from '../../../img/png/blood.png'
+import Second from '../../../img/png/experts.png'
+import Third from '../../../img/png/services.png'
+import Fourth from '../../../img/png/1000years.png'
 
 const News = () => {
     return (

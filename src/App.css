@@ -2,15 +2,6 @@
     display: grid;
     font-family: 'Roboto', serif;
     grid-template-columns: 1349px;
-    grid-template-areas: "he"
-    "me"
-    "ba"
-    "sl"
-    "se"
-    "ad"
-    "ne"
-    "re"
-    "ti"
-    "fo";
-    grid-template-rows: 40px 70px 500px 200px 300px 500px 1200px 100px 30px 130px ;
+    grid-template-areas: "he" "me" "ho" "re" "ti" "fo";
+    grid-template-rows: 40px 70px 2700px 100px 30px;
 }

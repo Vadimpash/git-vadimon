@@ -6,10 +6,10 @@ const Menu = () => {
     return (
         <div className="menu">
             <img src={Logo} alt="A logo"/>
-            <a href="/">Главная</a>
-            <a href="/">График приёма</a>
-            <a href="/">Платные услуги</a>
-            <a href="/">Информация</a>
+            <a href="/home">Главная</a>
+            <a href="/timetable">График приёма</a>
+            <a href="/services">Платные услуги</a>
+            <a href="/info">Информация</a>
         </div>
     );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import './service.css';
-import appSvg from '../../img/svg/clipboard.svg'
-import locSvg from '../../img/svg/hospital.svg'
-import injSvg from '../../img/svg/injection.svg'
+import appSvg from '../../../img/svg/clipboard.svg'
+import locSvg from '../../../img/svg/hospital.svg'
+import injSvg from '../../../img/svg/injection.svg'
 
 const Service = () => {
     return (

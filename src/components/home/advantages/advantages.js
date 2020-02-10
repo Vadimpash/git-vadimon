@@ -1,9 +1,9 @@
 import React from "react";
 import './advantages.css';
-import Adv from "../../img/jpg/advantages.jpg"
-import firArt from "../../img/png/firArt.png"
-import secArt from "../../img/png/secArt.png"
-import thiArt from "../../img/png/thiArt.png"
+import Adv from "../../../img/jpg/advantages.jpg"
+import firArt from "../../../img/png/firArt.png"
+import secArt from "../../../img/png/secArt.png"
+import thiArt from "../../../img/png/thiArt.png"
 
 const Advantages = () => {
     return (
