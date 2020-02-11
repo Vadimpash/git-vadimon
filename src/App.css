@@ -1,5 +1,4 @@
 .wrapper {
-    display: grid;
     font-family: 'Roboto', serif;
     grid-template-columns: 1349px;
     grid-template-areas: "he" "me" "ho" "re" "ti" "fo";
