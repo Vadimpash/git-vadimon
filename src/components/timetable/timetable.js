@@ -11,7 +11,7 @@ const Timetable = () => {
                 <thead>
                 <tr>
                     <th>
-                        <div>Фамилия,имя,отчество</div>
+                        <div>Специалисты</div>
                     </th>
                     <th>
                         <div>Участок</div>

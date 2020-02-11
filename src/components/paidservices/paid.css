@@ -1,24 +1,16 @@
-.timetable {
-    display: grid;
-
-}
-
-thead {
-    text-align: left;
-}
-
-.timeHeadline {
+.paidHeadline{
     display: grid;
     width: 1349px;
     height: 100px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
-    margin-bottom: 20px;
 }
 
-.timePos{
+.paidPos {
     align-self: center;
     justify-self: center;
 }
 
-
+.paid p {
+    margin-right: 200px;
+}

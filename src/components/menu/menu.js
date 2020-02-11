@@ -9,7 +9,7 @@ const Menu = () => {
             <a href="/home">Главная</a>
             <a href="/timetable">График приёма</a>
             <a href="/services">Платные услуги</a>
-            <a href="/info">Информация</a>
+            <a href="/info">О клинике</a>
         </div>
     );
 }
