@@ -11,6 +11,7 @@ import Home from "./components/home/home.js";
 import Timetable from "./components/timetable/timetable.js";
 import Paid from "./components/paidservices/paid";
 import Info from "./components/info/info";
+import Form from "./components/form/form";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = () => {
@@ -28,6 +29,9 @@ const App = () => {
                 </div>
                 <div className="info">
                     <Route path='/info' component={Info}/>
+                </div>
+                <div className="form">
+                    <Route path='/form' component={Form}/>
                 </div>
                 <Rewards/>
                 <Ticker/>
