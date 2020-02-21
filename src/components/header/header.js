@@ -19,9 +19,9 @@ const Header = () => {
                 <span>20:47:02</span>
                 <span>05 OCT 2019</span>
             </div>
-            <div className="reg">
+            <div className="logReg">
                 <span className="icon-prof"> </span>
-                <a href="/"><span>Вход/Регистрация</span></a>
+                <a href="/logForm"><span>Вход</span></a> / <a href="/regForm"><span>Регистрация</span></a>
             </div>
         </div>
     );

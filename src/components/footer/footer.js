@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="rightFoot">
                     <div className="telephoneFoot">
                         <span>Телефон:</span> <br/>
-                        <a href="/">80162448833 (городской)</a> <br/>
+                        80162448833 (городской) <br/>
                     </div>
                     <div className="postFoot">
                         <span>E-mail:</span> <br/>

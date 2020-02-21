@@ -11,6 +11,8 @@ import Home from "./components/home/home.js";
 import Timetable from "./components/timetable/timetable.js";
 import Paid from "./components/paidservices/paid";
 import Info from "./components/info/info";
+import logForm from "./components/logForm/logForm";
+import regForm from "./components/regForm/regForm";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = () => {
@@ -19,7 +21,7 @@ const App = () => {
             <div className="wrapper">
                 <Header/>
                 <Menu/>
-                <Route path='/home' component={Home}/>
+                    <Route path='/home' component={Home}/>
                 <div className="timetable">
                     <Route path='/timetable' component={Timetable}/>
                 </div>
@@ -28,6 +30,12 @@ const App = () => {
                 </div>
                 <div className="info">
                     <Route path='/info' component={Info}/>
+                </div>
+                <div className="logForm">
+                    <Route path='/logForm' component={logForm}/>
+                </div>
+                <div className="regForm">
+                    <Route path='/regForm' component={regForm}/>
                 </div>
                 <Rewards/>
                 <Ticker/>
