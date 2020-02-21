@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div className="mail">
                 <span className="icon-mail"> </span>
-                <a href="/">laboratory@support.ltd</a>
+                <a href="/form">laboratory@support.ltd</a>
             </div>
             <div className="time">
                 <span className="icon-clock"> </span>
