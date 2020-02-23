@@ -1,6 +1,7 @@
 import React from "react";
 import './footer.css';
 import License from '../../img/jpg/licensefooter.jpg'
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -29,7 +30,7 @@ const Footer = () => {
                     </div>
                     <div className="postFoot">
                         <span>E-mail:</span> <br/>
-                        <a href="/">laboratory@support.ltd</a>
+                        <NavLink to="/">laboratory@support.ltd</NavLink>
                     </div>
                 </div>
             </div>

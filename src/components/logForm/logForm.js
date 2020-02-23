@@ -4,20 +4,26 @@ import './logForm.css';
 const App = () => {
     return (
         <div className="form">
-            <div className="artLog"><h1>Вход</h1></div>
-            <form action="#">
-                <span className="titLog">Логин</span>
-                <div className="login">
-                    <label htmlFor="login"> </label>
-                    <input type="text" id="login"/>
-                </div>
-                <span className="titPass">Пароль</span>
-                <div className="password">
-                    <label htmlFor="password"> </label>
-                    <input type="password" id="pass"/>
-                </div>
-                <button>Войти</button>
-            </form>
+            <div className="artLog">
+                <div className="posLog"><h1>Вход</h1></div>
+            </div>
+            <div className="wrapperLog">
+                <form action="#">
+                    <div className="formCont"><span className="titLog">Логин</span>
+                        <div className="login">
+                            <label htmlFor="login"> </label>
+                            <input type="text" id="login" placeholder="Введите ваш логин"/>
+                        </div>
+                        <span className="titPass">Пароль</span>
+                        <div className="password">
+                            <label htmlFor="password"> </label>
+                            <input type="password" id="pass" placeholder="Введите ваш пароль"/>
+                        </div>
+                        <button>Войти</button>
+                    </div>
+                </form>
+            </div>
+
         </div>
     );
 }

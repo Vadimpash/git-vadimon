@@ -1,7 +1,22 @@
 .artLog {
     display: grid;
     width: 1349px;
+    height: 100px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(99, 99, 249, 1) 100%);
-    text-align: center;
+}
+
+.posLog{
+    align-self: center;
+    justify-self: center;
+}
+
+.wrapperLog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 470px;
+}
+
+.login{
+    margin-bottom: 10px;
 }

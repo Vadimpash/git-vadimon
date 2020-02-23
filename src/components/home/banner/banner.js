@@ -1,6 +1,7 @@
 import React from "react";
 import './banner.css';
 import Banner from '../../../img/jpg/banner.jpg'
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -10,7 +11,7 @@ const Header = () => {
                 <span>Здоровье бесценно. Доверяйте лучшим.</span>
                 <span>Медицинский центр MRL</span>
                 <div className="button">
-                    <button>Зарегистрироваться сейчас</button>
+                    <NavLink to="/regForm"><button>Зарегистрироваться сейчас</button></NavLink>
                 </div>
             </div>
         </div>

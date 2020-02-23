@@ -39,3 +39,13 @@
     transition: all 0.3s;
     text-decoration: underline;
 }
+
+.logReg a {
+    text-decoration: blink;
+}
+
+.logReg a:hover {
+    color: white;
+    transition: all 0.3s;
+    text-decoration: underline;
+}

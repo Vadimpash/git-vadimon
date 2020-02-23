@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css';
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
             </div>
             <div className="mail">
                 <span className="icon-mail"> </span>
-                <a href="/form">laboratory@support.ltd</a>
+                <NavLink to="/form">laboratory@support.ltd</NavLink>
             </div>
             <div className="time">
                 <span className="icon-clock"> </span>
@@ -21,7 +22,7 @@ const Header = () => {
             </div>
             <div className="logReg">
                 <span className="icon-prof"> </span>
-                <a href="/logForm"><span>Вход</span></a> / <a href="/regForm"><span>Регистрация</span></a>
+                <NavLink to="/logForm"><span>Вход</span></NavLink> / <NavLink to="/regForm"><span>Регистрация</span></NavLink>
             </div>
         </div>
     );

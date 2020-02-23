@@ -13,7 +13,6 @@ import Paid from "./components/paidservices/paid";
 import Info from "./components/info/info";
 import logForm from "./components/logForm/logForm";
 import regForm from "./components/regForm/regForm";
-import Form from "./components/form/form";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = () => {
@@ -37,9 +36,6 @@ const App = () => {
                 </div>
                 <div className="regForm">
                     <Route path='/regForm' component={regForm}/>
-                <div className="form">
-                    <Route path='/form' component={Form}/>
-                </div>
                 <Rewards/>
                 <Ticker/>
                 <Footer/>
